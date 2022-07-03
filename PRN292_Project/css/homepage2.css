@@ -1,0 +1,174 @@
+﻿body {
+    background-image: url('../image/contuanhbaocopycainay.png');
+    background-position: top;
+    background-size: 100%;
+    font-family: Arial;
+}
+
+#header {
+    font-family: Times New Roman;
+    background-image: url('../image/wood1.png');
+    background-repeat: repeat-x;
+    width: 960px;
+    height: 110px;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: white;
+}
+
+
+#container {
+    width: 980px;
+    margin: auto;
+    box-shadow: 0 0 24px;
+    margin-top: -10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 200px;
+}
+
+#title {
+    font-size: 47px;
+    color: #712525;
+}
+
+#subtitle {
+    font-size: 22px;
+    color: #712525;
+}
+
+#cart {
+    float: right;
+    width: 300px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.image_icon {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+#menu {
+    background-color: #C8A370;
+    width: 100%;
+    height: 35px;
+}
+
+#nav {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 8px;
+}
+
+    #nav li a {
+        height: 30px;
+        float: left;
+        padding-left: 20px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+
+        #nav li a:hover {
+            color: red;
+        }
+
+    #nav li input[type=text] {
+        position: absolute;
+        left: 800px;
+        top: 180px;
+        float: right;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    #nav li ul li {
+        height: 30px;
+        width: 150px;
+        margin-top: 10px;
+    }
+
+        #nav li ul li a {
+            color: yellow;
+        }
+
+    #nav li:hover ul li {
+        display: block
+    }
+
+    #nav li button {
+        position: absolute;
+        left: 1020px;
+        top: 180px;
+        float: right;
+        cursor: pointer;
+        background: #ddd;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+        #nav li button:hover {
+            background: #ccc;
+        }
+
+
+#regis {
+    background-color: #AA8148;
+    width: 100%;
+    height: 35px;
+}
+
+#nav1 {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 8px;
+}
+
+    #nav1 li {
+        float: right;
+    }
+
+        #nav1 li a {
+            padding-right: 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+        }
+            #nav1 li a:hover {
+                color: red;
+            }
+
+
+#side {
+    text-align: center;
+    float: right;
+    width: 25%;
+    padding-bottom: 79%;
+    background-color: white;
+}
+
+#article {
+    background-color: #EEF5DB;
+    padding: 10px;
+    padding-bottom: 75%;
+}
+
+#footer {
+    font-size: 13px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+#con {
+    width: 100%;
+    padding-bottom: 100%;   
+}
+
+
+
+

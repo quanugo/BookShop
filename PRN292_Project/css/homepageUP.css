@@ -1,0 +1,239 @@
+﻿
+body {
+    background-image: url('../image/contuanhbaocopycainay.png');
+    background-position: top;
+    background-size: 100%;
+    font-family: Arial;
+    background-attachment: fixed;
+}
+    
+
+#header {
+    font-family: Times New Roman;
+    background-image: url('../image/wood1.png');
+    background-repeat: repeat-x;
+    width: 960px;
+    height: 110px;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: white;
+}
+
+
+#container {
+    width: 980px;
+    margin: auto;
+    box-shadow: 0 0 24px;
+    margin-top: -10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: auto;
+    background-image: url('../image/wood1.png');
+}
+
+#title {
+    font-size: 47px;
+    color: #712525;
+}
+
+#subtitle {
+    font-size: 22px;
+    color: #712525;
+}
+
+#cart {
+    float: right;
+    width: 300px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.image_icon {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#menu {
+    list-style: none;
+    height: 48px;
+}
+
+    #menu li {
+        text-align: left;
+        color: #fff;
+    }
+
+        #menu li a {
+            text-decoration: none;
+            font-size: 16px;
+            display: block;
+            padding: 15px;
+            color: #fff;
+            background-color: #C8A370;
+        }
+
+    #menu > li {
+        float: left;
+        border-right: 1px solid #fff;
+        position: relative;
+}
+
+        #menu > li > ul.dropdown_menu {
+            position: absolute;
+            list-style: none;
+            display: none;
+            top: 48px;
+            left: 0;
+            width: 200px;
+        }
+
+        #menu > li:hover > a {
+            background-color: sandybrown;
+        }
+
+        #menu > li:hover > ul.dropdown_menu {
+            z-index: 100;
+            display: block;
+        }
+
+        #menu > li > span {
+            float: right;
+            cursor: pointer;
+            background: #ddd;
+            padding-right: 10px;
+            font-size: 15px;
+        }
+
+ul.dropdown_menu > li > ul.submenu {
+    position: absolute;
+    display: none;
+    left: 200px;
+    list-style: none;
+    width: 200px;
+}
+
+ul.dropdown_menu > li:hover > a {
+    background-color: #5C5C5C !important;
+}
+
+ul.dropdown_menu > li:hover > ul.submenu {
+    z-index: 100;
+    display: block;
+}
+
+ul.submenu > li:hover > a {
+    background-color: #5C5C5C !important;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.arrow-down {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #fff;
+}
+
+.arrow-right {
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #fff;
+}
+
+
+
+#button {
+    float: right;
+    cursor: pointer;
+    background: #ddd;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+    #button:hover {
+        background: #ccc;
+    }
+#regis {
+    background-color: #AA8148;
+    width: 100%;
+    height: 35px;
+}
+
+#nav1 {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 8px;
+}
+
+    #nav1 li {
+        float: right;
+    }
+
+        #nav1 li a {
+            padding-right: 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+        }
+
+            #nav1 li a:hover {
+                color: red;
+            }
+
+
+
+#article {
+    background-color: #EEF5DB;
+    padding: 10px;
+    padding-bottom: 75%;
+}
+
+#footer {
+    font-size: 13px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+#con {
+    width: 75%;
+    padding-bottom: 15px;
+}
+
+#side {
+    margin-top:20px;
+    text-align: center;
+    float: right;
+    width: 25%;
+    padding-bottom: 15px;
+}
+
+#article {
+    background-color: #EEF5DB;
+    padding: 10px;
+    padding-bottom: 75%;
+}
+
+#footer {
+    font-size: 13px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+#con {
+    width: 75%;
+    padding-bottom: 100%;
+}

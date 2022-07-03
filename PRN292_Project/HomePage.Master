@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomePage.master.cs" Inherits="PRN292_Project.HomePage" %>
+
+<!DOCTYPE html>  
+  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head runat="server">  
+    <title>Book Store Project</title>  
+    <link href="css/homepageUP.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">  
+    </asp:ContentPlaceHolder>  
+    <style type="text/css">
+        .auto-style1 {}
+    </style>
+</head>    
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="regis">  
+    <ul id="nav1">  
+        <li><a href="login.aspx">Đăng nhập</a></li>  
+        <li><a href="register.aspx">Đăng kí</a></li>           
+    </ul>  
+</div>
+<header id="header">  
+<div id="title">
+    <div id="cart"><a href="cart1.aspx"><img class="image_icon" src="image/cart2.png" /></a></div>
+    Nhà sách</div>
+<div id="subtitle">Chào mừng đến với Nhà sách</div>
+</header>   
+<div>  
+    <ul id="menu"> 
+        <li><a href="Home.aspx">Trang chủ</a></li>       
+        <li>
+            <a href="#">Danh mục sách<span class="arrow arrow-down"></span></a>
+            <ul class="dropdown_menu">
+                <li><asp:LinkButton ID="btnKinhdien" runat="server" OnClick="btnKinhdien_Click">Kinh điển</asp:LinkButton></li>
+                
+                
+                <li><asp:LinkButton ID="btnVanhoc" runat="server" OnClick="btnVanhoc_Click">Văn học</asp:LinkButton></li>
+                <li><asp:LinkButton ID="btnTrinhtham" runat="server" OnClick="btnTrinhtham_Click">Trinh thám</asp:LinkButton></li>
+                <li><asp:LinkButton ID="btnLangman" runat="server" OnClick="btnLangman_Click">Lãng mạn</asp:LinkButton></li>
+                <li><asp:LinkButton ID="btnKynangsong" runat="server" OnClick="btnKynangsong_Click">Kỹ năng sống</asp:LinkButton></li>
+            </ul>
+        </li>
+        <li><a href="history.aspx">Lịch sử giao dịch</a></li>  
+        <li><a href="about.aspx">Giới thiệu</a></li>  
+        <li><asp:TextBox ID="txtSearch" runat="server" placeholder="Tìm kiếm.." Height="41px" Width="218px" CssClass="auto-style1"></asp:TextBox></li>  
+        <li><asp:Button ID="Button1" runat="server" Text="Tìm kiếm" Height="46px" Width="104px" OnClick="Button1_Click"/></li>                 
+    </ul>
+       
+</div>
+      
+<aside id="side">     
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">  
+          
+        </asp:ContentPlaceHolder>
+</aside>  
+  
+  
+    <div id="con">  
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  
+          
+            
+          
+            
+          
+            
+          
+        </asp:ContentPlaceHolder>  
+    </div>  
+    </div>
+        
+  </form> 
+</body>  
+ 
+</html>  

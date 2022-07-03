@@ -1,0 +1,29 @@
+﻿.container_fullwidth {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 125%;
+}
+
+.container_fullwidth {
+    background: #fff;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title {
+    font-size: 47px;
+    color: #712525;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 30px;
+}
+
